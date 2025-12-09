@@ -4,6 +4,7 @@
 3 split into words and then iterate to find the count of words
 4 for getting the count im using  dictionary as it has key and value pairs
 5 display the entire output
+6 to run in terminal (python WordFrequencyCounter.py)
 '''
 import string
 text = input("Enter the string :")# getting the input

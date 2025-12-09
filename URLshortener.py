@@ -4,7 +4,7 @@ create 3 main functions ( Random charater,shortening , orginal(redirect))
 in shortening we are using a Ascii for url generating which consists of A-Z,a-Z,0-9
 it will be in 6 characters, it can be done using Random library
 i also use the url_map as a dictionary to store and keep the data , which also helps in making new and unique values
-
+to run in terminal (python URLshortener.py)
 """
 import random
 url_map={}

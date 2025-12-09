@@ -4,6 +4,8 @@ it has history along with it , it supports only two-number operations
 History =["1+2=3","10/5=2"]
 input format eg [10 * 8],[10 + 2]
 
+to run in terminal (python CalculatorwithHistory.py)
+
 """
 history =[]
 def get_history():

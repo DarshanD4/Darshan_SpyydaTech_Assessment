@@ -8,7 +8,7 @@
 4 easier method of comparision use simple sorting method for comparing them both and getting the new list values
 5 i have used sorted array and got the write answer it is because if  any smaller values comes in no order of sequence then 
  it will not increase the new list value
- 
+6 to run in terminal (python Sublen.py)
 """
 def bubble_sort(arr):
     n=len(arr)

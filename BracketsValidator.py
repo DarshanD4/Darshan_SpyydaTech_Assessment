@@ -4,7 +4,7 @@ because it helps in easier understanding of begining and ending terms by using F
 1 loop through the string and uppend them with checking for the close bracket symbol
 that is, if the top matches with  the bottom one then we pop if not we return false
 2  if stack is empty then the bracket matches else not matches
-
+3 to run in terminal (python BracketsValidator.py)
 """
 pairs={
     ')':'(',']':'[','}': '{'

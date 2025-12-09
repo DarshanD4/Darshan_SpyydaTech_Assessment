@@ -20,7 +20,7 @@ data stored in the following format
     "count":copies,
     "available":copies
 
-    
+to run in terminal (python Library.py)   
 """
 Library=[]
 def add():
