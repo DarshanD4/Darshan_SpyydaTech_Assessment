@@ -12,13 +12,13 @@ pairs={
 stack=[]
 text=str(input("Enter the Brackets: "))
 for ch in text:
-    if ch in "([{":
+    if ch in "([{":# adding the first half to the stack
         stack.append(ch)
-    elif ch in "}])":
+    elif ch in ")]}":
         if stack == []:
             print("False")
             break
-        if stack[-1] == pairs[ch]:
+        if stack[-1] == pairs[ch]:#checking the top matching with its other half
             stack.pop()
         else :
             print("False")
